@@ -15,7 +15,9 @@ var minZeroArray = function(nums, queries) {
         for (let i = 0; i < k; i++) {
             let [l, r, val] = queries[i];
             diff[l] -= val;
-            if (r + 1 < n) {
+            if (r + 1 < n) {\
+
+                
                 diff[r + 1] += val;
             }
         }

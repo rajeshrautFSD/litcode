@@ -17,4 +17,5 @@ function maximumCount(nums) {
 }
 return Math.max(negCount, posCount);
 }
+
 console.log(maximumCount(nums));
